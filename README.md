@@ -16,7 +16,8 @@
 |  User logs out |
 
 </td></tr> </table>
-<br>
+
+![alt text](http://url/to/img.png](https://github.com/romaingrude/state_transition_exercise/blob/main/Screenshot%202023-11-27%20at%2015.00.26.png)
 
 ####  State transition table:
 
