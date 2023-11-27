@@ -1,5 +1,5 @@
-<div style="display: flex; justify-content: space-between;">
-
+<table>
+<tr><td>
 
 |  Identifying States |         
 |---|
@@ -7,19 +7,18 @@
 |  Log In Page |
 |  Logged In Page |
 
+</td><td>
+
 |  Identifying Events |
 |---|
 |  User signs up |
 |  User logs in |
 |  User logs out |
 
-
-</div>
+</td></tr> </table>
 <br>
 
-
-
-####  <u>State transition table</u>
+####  State transition table:
 
 |  Initial State | Event  | Next State  |
 |---|---|---|
@@ -32,8 +31,8 @@
 <br>
 
 #### <u>Test case for states and events/transitions:</u>
-Start: Sign-up Page
-Signs up => Log In Page
-Log in => User is logged into the site(Logged In Page)
-Log out => Log In Page
+* Start: Sign-up Page
+* Signs up => Log In Page
+* Log in => User is logged into the site(Logged In Page)
+* Log out => Log In Page
 
