@@ -25,13 +25,9 @@ title: Simple sample
 ---
 ```mermaid
 stateDiagram-v2
-    [*] --> Still
-    Still --> [*]
-
-    Still --> Moving
-    Moving --> Still
-    Moving --> Crash
-    Crash --> [*]
+    Still --> Moving: Test
+    Moving --> Still: Test
+    Moving --> Crash: Example
 ```
 
 ```mermaid
