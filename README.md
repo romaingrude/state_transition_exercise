@@ -35,8 +35,8 @@ stateDiagram-v2
     SignUpPagePage --> SignUpPagePage: Invalid signup details
     SignUpPagePage --> LogInPage: User signs-in
     LogInPage --> LogInPage: Incorrect login details
-    UsersIsLoggedIntoTheSite(LoggedInPPage) --> LogInPage: User logs out
-    LogInPage --> UsersIsLoggedIntoTheSite(LoggedInPPage): User logs in
+    UsersIsLoggedIntoTheSite --> LogInPage: User logs out
+    LogInPage --> UsersIsLoggedIntoTheSite: User logs in
 ```
 
 
