@@ -32,11 +32,12 @@ stateDiagram-v2
 
 ```mermaid
 stateDiagram-v2
-    SignUpPagePage --> SignUpPagePage: Invalid signup details
-    SignUpPagePage --> LogInPage: User signs-in
-    LogInPage --> LogInPage: Incorrect login details
-    UsersIsLoggedIntoTheSite --> LogInPage: User logs out
-    LogInPage --> UsersIsLoggedIntoTheSite: User logs in
+    SignUp --> SignUp: Invalid signup details
+    SignUp --> LogIn: User signs in
+    LogIn --> LogIn: Incorrect login details
+    LogIn --> LoggedIn: User logs in
+    LoggedIn --> LogIn: User logs out
+
 ```
 
 
