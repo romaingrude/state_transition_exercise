@@ -39,6 +39,14 @@ stateDiagram-v2
     LogInPage --> UsersIsLoggedIntoTheSite: User logs in
 ```
 
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
 
 ####  State transition table:
 
