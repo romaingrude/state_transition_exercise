@@ -41,6 +41,7 @@ stateDiagram-v2
     Log_In_Page --> Log_In_Page: Incorrect login details
     Log_In_Page --> Logged_In_Page: User logs in
     Logged_In_Page --> Log_In_Page: User logs out
+
 ```
 ```mermaid
 info
