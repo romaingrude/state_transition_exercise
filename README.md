@@ -42,7 +42,9 @@ stateDiagram
     Log_In_Page --> Users_is_logged_into_the_site(Logged_In_Page): User logs in
     Users_is_logged_into_the_site(Logged_In_Page) --> Log_In_Page: User logs out
 ```
-
+```mermaid
+info
+```
 
 ####  State transition table:
 
