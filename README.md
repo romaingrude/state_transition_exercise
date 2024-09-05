@@ -19,8 +19,23 @@
 
 <br>
 
+
+---
+title: Simple sample
+---
 ```mermaid
-stateDiagram-v2;
+stateDiagram-v2
+    [*] --> Still
+    Still --> [*]
+
+    Still --> Moving
+    Moving --> Still
+    Moving --> Crash
+    Crash --> [*]
+```
+
+```mermaid
+stateDiagram-v2
     Sign_Up_Page --> Sign_Up_Page: Invalid signup details
     Sign_Up_Page --> Log_In_Page: User signs-in
     Log_In_Page --> Log_In_Page: Incorrect login details
