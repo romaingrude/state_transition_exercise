@@ -35,7 +35,7 @@ stateDiagram-v2
 ```
 
 ```mermaid
-stateDiagram-v2
+stateDiagram
     Sign_Up_Page --> Sign_Up_Page: Invalid signup details
     Sign_Up_Page --> Log_In_Page: User signs-in
     Log_In_Page --> Log_In_Page: Incorrect login details
