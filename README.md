@@ -31,7 +31,7 @@ stateDiagram-v2
 ```
 
 ```mermaid
-stateDiagram-v2
+graph TD;
     SignUpPagePage --> SignUpPagePage: Invalid signup details
     SignUpPagePage --> LogInPage: User signs-in
     LogInPage --> LogInPage: Incorrect login details
