@@ -37,7 +37,6 @@ stateDiagram-v2
     LogIn --> LogIn: Incorrect login details
     LogIn --> LoggedIn: User logs in
     LoggedIn --> LogIn: User logs out
-
 ```
 
 
